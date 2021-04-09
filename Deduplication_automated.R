@@ -6,7 +6,7 @@ library(stringr)
 library(fulltext)
 
 #define where the output of the script should be saved
-folder_script <- "C:/Users/AnneSuffel/OneDrive - London School of Hygiene and Tropical Medicine/LSHTM PhD/Data Analysis/Systematic Review/R scripts/"
+folder_script <- "filepath here"
 #define where all the search outputs are saved
 #.ris files in this folder should entail only citation and abstract, nothing else
 # the files should in the follwoing order:
@@ -14,7 +14,7 @@ folder_script <- "C:/Users/AnneSuffel/OneDrive - London School of Hygiene and Tr
 #PubMed, Cinahl Plus, Other databases from Ebsco, Web of Science databases
 #Scopus, ProQuest databases, Cochrane databases, CRD databases, Any other databases, Clinical Trials websites
 
-folder_searches <- "C:/Users/AnneSuffel/OneDrive - London School of Hygiene and Tropical Medicine/LSHTM PhD/Data Analysis/Systematic Review/R scripts/Searches/"
+folder_searches <- "filepath here"
 folder_output <-  folder_script # place where to save final library
 setwd(folder_script)
 
